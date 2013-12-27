@@ -2,8 +2,9 @@
   "name": "coverart",
   "description": "Fetch music cover art form the Cover Art Archive",
   "keywords": [
-    "coverart",
-    "coverart",
+    "cover art",
+    "cover art archive",
+    "album art",
     "music",
     "api"
   ],
@@ -30,7 +31,7 @@
     "test": "make test"
   },
   "engines": [
-    "node >=0.9.0"
+    "node >=0.8.0"
   ],
   "main": "./lib/coverart",
   "licenses": [

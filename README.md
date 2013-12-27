@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/jbraithwaite/coverart.png?bracah=master)](http://travis-ci.org/jbraithwaite/coverart) [![Total views](https://sourcegraph.com/api/repos/github.com/jbraithwaite/coverart/counters/views.png)](https://sourcegraph.com/github.com/jbraithwaite/coverart)
 
-Cover Art allows you to fetch album artwork from [the Cover Art Archive](http://coverartarchive.org/) using [their API](http://musicbrainz.org/doc/Cover_Art_Archive/API)
+Cover Art allows you to fetch album artwork from [the Cover Art Archive](http://coverartarchive.org/) using [their API](http://musicbrainz.org/doc/Cover_Art_Archive/API).
 
 ### Example Usage
 
@@ -17,7 +17,7 @@ var ca = new CA({userAgent:'my-awesome-app/0.0.1 ( http://my-awesome-app.com )'}
 
 ### Resources
 
-There are two main resources: `release` and `release group`
+There are two main resources: `release` and `release group`.
 
 ### Release
 
@@ -39,7 +39,7 @@ ca.release('660c1995-c6a0-4c90-b158-2f2d9caff78f', {piece: 'front'}, function(er
     //  {
     //      "contentType": "image/jpeg",
     //      "extension": ".jpeg",
-    //     "image": ... binary image ...
+    //      "image": ... binary image ...
     //  }
 });
 ```
@@ -84,3 +84,5 @@ ca.releaseGroup('02f79295-21e1-34cc-82f2-63219eec4f0a' ,function(err, response){
     //  }
 });
 ```
+
+[![NPM](https://nodei.co/npm/coverart.png?downloads=true)](https://nodei.co/npm/coverart/)
