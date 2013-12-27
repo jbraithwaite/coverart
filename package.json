@@ -1,0 +1,46 @@
+{
+  "name": "coverart",
+  "description": "Fetch music cover art form the Cover Art Archive",
+  "keywords": [
+    "coverart",
+    "coverart",
+    "music",
+    "api"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbraithwaite/coverart.git"
+  },
+  "author": {
+    "name": "Justin Braithwaite",
+    "email": "justinbraithwaite@gmail.com",
+    "url": "http://www.projectnine.io/"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "request": "~2.30.0"
+  },
+  "devDependencies": {
+    "mocha": ">=1.15.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": [
+    "node >=0.9.0"
+  ],
+  "main": "./lib/coverart",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jbraithwaite/coverart/raw/master/LICENSE"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jbraithwaite/coverart/issues"
+  }
+}
